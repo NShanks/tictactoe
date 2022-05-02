@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js-file.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div>
+        <form onsubmit="playGame()">
+            <label for ="playerOne">playerOne Name (X, first):</label>
+            <input type ="text" id="playerOne" name="playerOne" value="playerOne name">
+            <br>
+            <!-- Player one first?(gets X)
+            <label for ="X">Yes:</label>
+            <input type ="radio" id="marker" name="marker" value='X'>
+            <label for ="O">No:</label>
+            <input type ="radio" id="marker" name="marker" value='O'>
+            <br> -->
+            <br>
+            <label for ="playerTwo">playerTwo Name (O, second):</label>
+            <input type ="text" id="playerTwo" name="playerTwo" value="playerTwo name">
+            <br>
+            <br>
+            <input type="button" value="Play Game" onclick="playGame()">
+        </form>
+    </div>
+    <br>
+
+    <div class='display'>Gameboard
+
+
+    </div>
+</body>
+</html>
