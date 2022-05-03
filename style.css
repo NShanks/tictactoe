@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+tile{
+    background-color: green;
+    border: solid black;
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+    user-select: none;
+}
+tile:hover{
+    background-color: skyblue;
+    border: solid black;
+}
+
+#display{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    justify-content: center;
+    padding: 25px;
+}
